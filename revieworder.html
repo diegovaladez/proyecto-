@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Review monki</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            text-align: center;
+            text-shadow: blanchedalmond;
+        }
+    </style>
+        <div style="margin: 24px">
+        <nav class="navbar navbar-light"
+        style="background-color: rgb(24, 13, 114);" >
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color:rgb(229, 255, 0); font-family: 'La unica', sans-serif;">Inicio</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-espanded="false">Unidad 1</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDripdownMenuLink">
+                            <a class="dropdown-item"
+                            href="perfil.html">Perfil</a><br>
+                            <a class="dropdown-item"
+                            href="calculadora.html">Calculadora</a><br>
+                            <a class="dropdown-item"
+                            href="tienda.html">Tienda parte 1</a><br>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-espanded="false">Unidad 2</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDripdownMenuLink">
+                            <a class="dropdown-item"
+                            href="tiendapedido.html">Pedido</a><br>
+                            <a class="dropdown-item"
+                            href="jason.html">Jason</a><br>
+                            <a class="dropdown-item"
+                            href="tiendapedido2.html">Tienda Pedido 2</a><br>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-espanded="false">Unidad 3</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDripdownMenuLink">
+                            <a class="dropdown-item"
+                            href="basededatos.html">Base de datos</a><br>
+                            <a class="dropdown-item"
+                            href="peliculas.html">Peliculas</a><br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+        </nav>
+    </div>
+    <h1>Confirmar Pedido</h1>
+
+    <form id="confrmacion"></form>
+    <label for="nombre">nombre</label>
+    <input type="text"name="nombre" id="nombre"placeholder="Nombre y Apellido" required>
+    <label for="direccion">Direccion</label>
+    <input type="text"name="direccion" id="direccion"placeholder="Calle, numero y colonia" required>
+    <label for="telefono">Telefono</label>
+    <input type="text"name="telefono" id="telefono"placeholder="xxx-xxx-xxx" required>
+    <label for="email">E-mail</label>
+    <input type="email"name="email" id="email"placeholder="tuusuarioservidor.com" required>
+    <select name="paymentMethod" id="paymentMethod">
+        <option value="creditCard"></option>
+    </select>
+    </body>
+    </html>
